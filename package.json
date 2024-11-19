@@ -1,0 +1,20 @@
+{
+  "name": "study-monorepo",
+  "workspaces": {
+    "packages": [
+      "package/*"
+    ]
+  },
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "project1": "yarn workspace project1",
+    "common": "yarn workspace common"
+  }
+}
